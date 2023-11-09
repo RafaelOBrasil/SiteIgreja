@@ -1,0 +1,47 @@
+@font-face {
+    font-family: cyber;
+    src: url(../fonts/Cybrpnuk2.ttf);
+}
+
+img{
+    width: 500px;
+    height: 400px;
+}
+
+#header_ico{
+    width: 50px;
+    height: auto;
+}
+
+#cultosEventos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 500px;
+    width: 100vw;
+}
+
+#cultos,#eventos{
+    height: 400px;
+    width: 40%;
+}
+
+.tituloCE{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    background-color: green;
+    color: white;
+}
+
+.conteudoCE{
+    background-color: rgb(36, 213, 36);
+    height: 37vh;
+}
+
+.cards{
+    height: 50px;
+    width: auto;
+}
