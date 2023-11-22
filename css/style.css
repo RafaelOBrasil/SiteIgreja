@@ -3,14 +3,29 @@
     src: url(../fonts/Cybrpnuk2.ttf);
 }
 
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 img{
     width: 500px;
     height: 400px;
 }
 
+.carousel{
+    margin-bottom: 60px;
+}
+
 #header_ico{
     width: 50px;
     height: auto;
+    margin-right: 30px;
 }
 
 #cultosEventos{
@@ -44,4 +59,44 @@ img{
 .cards{
     height: 50px;
     width: auto;
+}
+
+.divImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.d-block{
+    width: auto;
+}
+.carousel-item{
+text-align: center;
+}
+
+#jornal, #time{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    justify-content: center;
+    gap: 60px;
+    width: 100vw;
+    margin-bottom: 100px;
+}
+
+h2{
+    width: 100vw;
+    text-align: center;
+    font-family: cyber;
+}
+
+#footer{
+    padding: 0vw 10vw;
+    height: 90px;
+    background-color: #212529;
+}
+footer > p{
+    color: white;
 }
